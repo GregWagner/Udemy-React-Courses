@@ -1,0 +1,13 @@
+Quokka Start
+
+Video 23 	?? operator
+Video 24 	Optional Chaining
+Video 25 	Map mehod
+Video 26 	Filter method
+Video 27 	Reduce method
+Video 28 	Sort method
+Video 29	Immutable arrays
+Video 30	Promises
+Video 31	Async/Await
+
+

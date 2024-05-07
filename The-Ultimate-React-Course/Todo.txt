@@ -1,0 +1,12 @@
+1) Challenges
+	Video 44	Profile Card (v1)
+	Video 55	Profile Card (v2)
+	Video 68 	Date Counter (v1)
+	Video 76 	Date Counter (v2)
+	Video 93 	Tip Calculator
+
+
+2) Exercises
+	Video 75	Flashcards
+	Video 89	Accordion Component
+	Video 92	Accordion Component v2
