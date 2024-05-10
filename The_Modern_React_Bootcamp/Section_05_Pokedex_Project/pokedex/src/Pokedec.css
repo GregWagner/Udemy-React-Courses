@@ -1,0 +1,21 @@
+.Pokedec {
+  text-align: center;
+}
+
+.Pokedec-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Pokedec-data {
+  font-size: 80%;
+}
+
+.Pokedec-winner {
+  color: #4caf50;
+}
+
+.Pokedec-loser {
+  color: #e91e63;
+}
