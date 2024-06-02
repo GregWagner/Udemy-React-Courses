@@ -4,6 +4,7 @@ class Hello extends React.Component {
     from: 'Anonymous',
     bangs: 1,
   };
+
   render() {
     // console.log(this.props);
     const props = this.props;

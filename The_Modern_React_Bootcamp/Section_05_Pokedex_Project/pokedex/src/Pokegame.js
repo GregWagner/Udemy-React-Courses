@@ -26,7 +26,6 @@ class Pokegame extends Component {
 
     let exp1 = hand1.reduce((exp, pokemon) => exp + pokemon.base_experience, 0);
     let exp2 = hand2.reduce((exp, pokemon) => exp + pokemon.base_experience, 0);
-    let winner = exp1 > exp2 ? 'Player 1' : 'Player 2';
 
     return (
       <div className="Pokegame">
