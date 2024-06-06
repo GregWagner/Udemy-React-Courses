@@ -13,9 +13,23 @@ class BoxList extends Component {
   create(newBox) {
     this.setState({ boxes: [...this.state.boxes, newBox] });
   }
+  remove(id) {
+    this.setState({
+      boxes: this.state.boxes.filter((box) => {
+        return box.id !== id;
+      }),
+    });
+  }
   render() {
     const boxes = this.state.boxes.map((box) => (
-      <Box height={box.height} width={box.width} color={box.color} />
+      <Box
+        key={box.id}
+        id={box.id}
+        height={box.height}
+        width={box.width}
+        color={box.color}
+        removeBox={() => this.remove(box.id)}
+      />
     ));
     return (
       <div>
