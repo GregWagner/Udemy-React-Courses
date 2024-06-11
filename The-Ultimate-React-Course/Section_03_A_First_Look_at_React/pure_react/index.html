@@ -1,6 +1,5 @@
-<!-- Pure react from Video 13 -->
-
 <!DOCTYPE html>
+<!-- Pure react from Video 13 -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -21,6 +20,7 @@
       function App() {
         const [time, setTime] = React.useState(new Date().toLocaleTimeString());
 
+        // update time state every second
         React.useEffect(function () {
           setInterval(function () {
             setTime(new Date().toLocaleTimeString());

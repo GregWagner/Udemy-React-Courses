@@ -86,12 +86,6 @@ function Menu() {
       ) : (
         <p>We're still working on our menu. Please come back later</p>
       )}
-      {/* <Pizza
-        name="Pizza Spinaci"
-        ingredients="Tomato, mozarella, spinach, and ricotta cheese"
-        photoName="pizzas/spinaci.jpg"
-        price={12}
-      /> */}
     </main>
   );
 }
